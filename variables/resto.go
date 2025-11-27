@@ -1,9 +1,9 @@
 package variables
 
 import (
-	"fmt"
-	"strconv"
-	"time"
+	"fmt"     // para impresiones
+	"strconv" // conversiones de datos
+	"time"    // para fechas
 )
 
 // vaiable Global ya que inicia con mayuscula, para  el que importe este paquete
