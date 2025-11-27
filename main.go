@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
 	//"github/ivanchodark/godesde0/variables"
-	"github/ivanchodark/godesde0/ejercicios"
+	//"github/ivanchodark/godesde0/ejercicios"
+	"github/ivanchodark/godesde0/teclado"
 	//"runtime" // informacion del equipo en que se esta corriendo el app
 )
 
@@ -34,5 +34,6 @@ func main() {
 			fmt.Printf("%s \n", os)
 		}
 	*/
-	fmt.Println(ejercicios.TestValor("2000"))
+	//fmt.Println(ejercicios.TestValor("2000"))
+	teclado.IngresoNumeros()
 }
