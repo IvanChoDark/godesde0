@@ -2,7 +2,9 @@ package main
 
 import (
 	//"github/ivanchodark/godesde0/variables"
-	"github/ivanchodark/godesde0/ejercicios"
+	//"fmt"
+	//"github/ivanchodark/godesde0/ejercicios"
+	"github/ivanchodark/godesde0/files"
 	//"fmt"
 	//"github/ivanchodark/godesde0/teclado"
 	//"github/ivanchodark/godesde0/iteraciones"
@@ -39,5 +41,7 @@ func main() {
 	//fmt.Println(ejercicios.TestValor("2000"))
 	//teclado.IngresoNumeros()
 	//iteraciones.Iterar()
-	ejercicios.TablaMultiplicar()
+	//fmt.Println(ejercicios.TablaMultiplicar())
+	files.GrabarTabla()
+	//files.SumaTabla()
 }
